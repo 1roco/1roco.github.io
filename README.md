@@ -1,3 +1,4 @@
 # 1roco.github.io
 Deutch ubungen
-"add gender, nutzAus, style, img folders"
+"add and fill gender, nutzAus, style folders add img file"
+"add imgs"
