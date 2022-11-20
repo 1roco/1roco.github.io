@@ -1,4 +1,7 @@
 /* Stil für die Lernmaterialen für die deutsche Sprache */
+* {
+    box-sizing: border-box;
+  }
 h1{
     text-align: center;
     color: darkblue;
