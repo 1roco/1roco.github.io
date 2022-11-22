@@ -8,7 +8,7 @@
 .item4 { grid-area: right; }
 .item5 { grid-area: footer; }
 
-.grid-container {
+.gridContainer {
   display: grid;
   grid-template-areas:
     'header header header header header header'
@@ -19,7 +19,7 @@
   padding: 10px;
 }
 
-.grid-container > div {
+.gridContainer > div {
   background-color: #f3e521;
   text-align: center;
   padding: 20px 0;
