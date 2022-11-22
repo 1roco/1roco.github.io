@@ -1,4 +1,7 @@
 /* w3schools grid consrtruction */
+* {
+  box-sizing: border-box;
+  }
 .item1 { grid-area: header; }
 .item2 { grid-area: menu; }
 .item3 { grid-area: main; }
