@@ -5,18 +5,22 @@
 h1{
     text-align: center;
     color: darkblue;
+    font-family: 'Courier New', Courier, monospace;
 }
 h3{
     text-align: center;
     color:darkslategray;
+    font-family: 'Courier New', Courier, monospace;
 }
 h2{
     text-align: center;
     color: magenta;
+    font-family: 'Courier New', Courier, monospace;
 }
 p{
     text-align: center;
     color: darkslategray;
+    font-family: 'Courier New', Courier, monospace;
 }
 p.a { 
     font-size:small;

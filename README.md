@@ -9,3 +9,4 @@ Deutch ubungen
 "to 7:32 #1 of nn's Mobile-First Responsive Build series"
 "complete Mobile-First Responsive Build #2"
 "complete nn Mobile-First Responsive Build #4 - Base Styles with own notes" 
+"start nn Mobile-First Responsive Build #8 - Mobile Styles (part 1) add own notes"
