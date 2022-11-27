@@ -10,3 +10,4 @@ Deutch ubungen
 "complete Mobile-First Responsive Build #2"
 "complete nn Mobile-First Responsive Build #4 - Base Styles with own notes" 
 "start nn Mobile-First Responsive Build #8 - Mobile Styles (part 1) add own notes"
+"complete nn Mobile-First Responsive Build #8, own notes added Ready to make start on rocoDe site"
