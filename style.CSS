@@ -3,7 +3,7 @@
     box-sizing: border-box;
   }
   /*common variables */ 
-root {
+:root {
     --primary: lightblue;
     --secondary: rgb(234, 190, 243);
     --margin: darkblue;
@@ -12,7 +12,7 @@ root {
 body {
     margin: 30px;
     font-family: 'Courier New', Courier, monospace;
-    root: var(--margin)
+    color: var(--margin);
     text-align: center;
 }
 .gridContainer{
@@ -25,7 +25,7 @@ body {
     position: relative;
 }
 .gridContainer > *{
-    background: ;
+    
     padding: 10px;
 }
 #grid {
@@ -56,6 +56,7 @@ display : grid;}
     grid-column: 3/11;
     grid-row: 1/2;
     padding: 5px;
+    background: var(--primary);
 }
 .premis1 {
     grid-column: 3/11;
@@ -74,6 +75,10 @@ display : grid;}
 }
 .footer{
     grid-column: 3/11;
-    grid-row: 7/8;
+    grid-row: 7/9;
     padding: 5px; 
+    background: var(--primary);
+    font-size:small;
+    font-style: italic; 
+    color:white;
 }

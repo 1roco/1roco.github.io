@@ -13,3 +13,4 @@ Deutch ubungen
 "completed nn Mobile-First Responsive Build #8, own notes added now ready to make start on roco De site"
 "Code grid for mobile first code in index and style"
 "Code grid positions for mobile first, revise use of root colors"
+"Code index style, start on gender style"
