@@ -8,17 +8,29 @@
     <title>Geschlechterrätsel</title>
 </head>
 <body>
-    <p><a href="index.html">Startseite</a></p>
+  <input type="checkbox">
+  <div class="gridContainer">
+      <div id="grid">
+      <p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>
+      </div>
   <div class="header">
     <h1>Geschlechterrätsel</h1>
   </div>
+  <div class="links1">
+    <p><a href="index.html">Startseite</a></p>
+  </div>
+  <div class="links2"> 
+    <p><a href="nutzAus.html">Nützliche Ausdrücke</a></p>
+  </div>
+  <div class="prem1">
     <h3>der, die oder das?</h3>
     <h3>Klicken Sie auf den Radiobutton für die Antwort.</h3>
-    <div class= "img1"></div>
+  </div>
+    <div class= "img1">
     <img src="imgs/greenVeg.png" alt="greenVeg" width="250" height="180" class="center1">
   </div>
   <br>
-    <div class="container">
+    <div class="container1">
         <div class="center">
           
           <input type="radio" id="brokkoli" onclick="brokkoli()"name= "gender" >
@@ -29,25 +41,27 @@
 
           <input type="radio" id="brombere" onclick="brombere()"name= "gender" >
           <label for="mais()">Brombere</label>
-
-          <input type="radio" id="mais" onclick="mais()"name= "gender" >
-          <label for="mais()">Zuckermais</label>
           
-          <input type="radio" id="zucchini" onclick="zucchini()" name="gender" value="Zucchini">
-          <label for="zucchini">Zucchini</label>
-          <br>
+          <input type="radio" id="mais" onclick="mais()"name= "gender">
+          <label for="mais()">Zuckermais</label>
+
+          <label for="mais()"><input type="radio" id="mais" onclick="mais()"name= "gender">&nbsp;Zuckermais</label>
+          
+          <nbsp:><input type="radio" id="zucchini" onclick="zucchini()" name="gender" value="Zucchini">
+          <label for="zucchini">Zucchini</label></nbsp:>
+          
         </div>       
     </div>
       <br> 
-    <div class= "img2"></div>
+    <div class= "img2">
       <img src="imgs/moto1(1).jpg" alt="motos" width="180" height="220" class="center2">
     </div>
     <br>
-    <div class="container">
+    <div class="container2">
         <div class="center">
           
           <input type="radio" id="motorrad" onclick="motorrad()"name= "gender" >
-          <label for="mais()">Motorrad</label>
+          &nbsp<label for="mais()">Motorrad</label>
 
           <input type="radio" id="motorradkoffer" onclick="motorradkoffer()"name= "gender" >
           <label for="motorradkoffer()">Motorradkoffer</label>
@@ -77,13 +91,12 @@
           <label for="pflasterung()">Pflasterung</label>
         </div>
     </div>
-          <br>
-    <div class= "img3"></div>
+          
+    <div class= "img3">
           <img src="imgs/Freya.jpg" alt="chums" width="180" height="240" class="center3">
     </div>
-    <br>
-    <br>
-    <div class="container">
+   
+    <div class="container3">
         <div class="center"> 
           <input type="radio" id="madchen" onclick="madchen()" name="gender">
           <label for="madchen()">Mädchen</label>
@@ -102,8 +115,7 @@
 
           <input type="radio" id="reifen" onclick="reifen()" name="gender">
           <label for="reifen()">LKW-Reifen</label>
-          <br>
-          <br>
+          
           <input type="radio" id="klass" onclick="klass()" name="gender">
           <label for="klass()">Klassenzimmer</label>
 
@@ -115,8 +127,7 @@
 
           <input type="radio" id="topf" onclick="topf()" name="gender">
           <label for="topf()">Pflanzentopf</label>
-          <br>
-          <br>
+         
           <input type="radio" id="treppe" onclick="treppe()" name="gender">
           <label for="treppe()">Außentreppe</label>
 
@@ -131,7 +142,7 @@
           <br>
           <br>
           <br>
-<div class="footer">      
+<div class="footer2">      
           <p class="a">Geschlechterrätsel</p>
           <p><a href="index.html">Startseite</a></p>   
           <p><a href="nutzAus.html">Nützliche Ausdrücke</a></p>        

@@ -14,3 +14,4 @@ Deutch ubungen
 "Code grid for mobile first code in index and style"
 "Code grid positions for mobile first, revise use of root colors"
 "Code index style, start on gender style"
+"Not resolved line wrap for no-space between radio button and label"
