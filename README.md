@@ -15,3 +15,4 @@ Deutch ubungen
 "Code grid positions for mobile first, revise use of root colors"
 "Code index style, start on gender style"
 "Not resolved line wrap for no-space between radio button and label"
+"First completion of index and gender, check screen sizes for responsive build"

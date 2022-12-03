@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.CSS">
+    <link rel="stylesheet" href="styleg.CSS">
     <title>Geschlechterrätsel</title>
 </head>
 <body>
@@ -27,121 +27,130 @@
     <h3>Klicken Sie auf den Radiobutton für die Antwort.</h3>
   </div>
     <div class= "img1">
-    <img src="imgs/greenVeg.png" alt="greenVeg" width="250" height="180" class="center1">
+    <img src="imgs/greenVeg.png" alt="greenVeg" width="250" height="180" class="img1">
   </div>
-  <br>
-    <div class="container1">
-        <div class="center">
+ 
+    <!-- <div class="container1"> -->
+        <div class="c1L">
+        
+        
+        <input type="radio" id="brokkoli" onclick="brokkoli()"name= "gender" >
+        <label for="brokkoli()">Brokkoli</label>
+        <br>
+        
+        <input type="radio" id="brombere" onclick="brombere()"name= "gender" >
+        <label for="brombere()">Brombere</label>
+        <br>
+       
+        <input type="radio" id="stangenbohne" onclick="stangenbohne()"name= "gender" >
+        <label for="stangenbohne()">Stangenbohne</label>
+      </div>
+      <div class="c1R">
           
-          <input type="radio" id="brokkoli" onclick="brokkoli()"name= "gender" >
-          <label for="brokkoli()">Brokkoli</label>
+        <input type="radio" id="zucchini" onclick="zucchini()" name="gender" value="Zucchini">
+        <label for="zucchini">Zucchini</label>
+        <br>
+                        
+        <input type="radio" id="mais" onclick="mais()"name= "gender">
+        <label for="mais()">Zuckermais</label>
+        
+                                       
 
-          <input type="radio" id="stangenbohne" onclick="stangenbohne()"name= "gender" >
-          <label for="stangenbohne()">Stangenbohne</label>
-
-          <input type="radio" id="brombere" onclick="brombere()"name= "gender" >
-          <label for="mais()">Brombere</label>
-          
-          <input type="radio" id="mais" onclick="mais()"name= "gender">
-          <label for="mais()">Zuckermais</label>
-
-          <label for="mais()"><input type="radio" id="mais" onclick="mais()"name= "gender">&nbsp;Zuckermais</label>
-          
-          <nbsp:><input type="radio" id="zucchini" onclick="zucchini()" name="gender" value="Zucchini">
-          <label for="zucchini">Zucchini</label></nbsp:>
-          
+                          
         </div>       
-    </div>
-      <br> 
+    <!-- </div> -->
+      
     <div class= "img2">
-      <img src="imgs/moto1(1).jpg" alt="motos" width="180" height="220" class="center2">
+      <img src="imgs/moto1(1).jpg" alt="motos" width="180" height="220" class="img2">
     </div>
-    <br>
-    <div class="container2">
-        <div class="center">
+    
+    <!-- <div class="container2"> -->
+        <div class="c2L">
           
-          <input type="radio" id="motorrad" onclick="motorrad()"name= "gender" >
-          &nbsp<label for="mais()">Motorrad</label>
-
-          <input type="radio" id="motorradkoffer" onclick="motorradkoffer()"name= "gender" >
-          <label for="motorradkoffer()">Motorradkoffer</label>
-
-          <input type="radio" id="frau" onclick="frau()"name= "gender" >
-          <label for="frau()">Frau</label>
-
-          <input type="radio" id="außenwand" onclick="außenwand()" name="gender">
-          <label for="außenwand()">Außenwand</label>
-
-          <input type="radio" id="parkplatz" onclick="parkplatz()"name= "gender" >
-          <label for="parkplatz()">Parkplatz</label>
-          
-          <input type="radio" id="haustür" onclick="haustür()" name="gender">
-          <label for="haustür()">Haustür</label>
+        <label for="außenwand()"><input type="radio" id="außenwand" onclick="außenwand()" name="gender">Außenwand</label>
+          <!-- <input type="radio" id="außenwand" onclick="außenwand()" name="gender"> -->
           <br>
-          <input type="radio" id="sicherheitslicht" onclick="sicherheitslicht()" name="gender">
-          <label for="sicherheitslicht()">Sicherheitslicht</label>
-          
-          <input type="radio" id="dach" onclick="dach()" name="gender">
-          <label for="dach()">Dach</label>
-          
-          <input type="radio" id="fenster" onclick="fenster()" name="gender">
-          <label for="fenster()">Fenster</label>
-          
-          <input type="radio" id="pflasterung" onclick="pflasterung()" name="gender">
-          <label for="pflasterung()">Pflasterung</label>
+        <label for="dach()"><input type="radio" id="dach" onclick="dach()" name="gender">Dach</label>
+          <!-- <input type="radio" id="dach" onclick="dach()" name="gender"> -->
+          <br>
+        <label for="fenster()"><input type="radio" id="fenster" onclick="fenster()" name="gender">Fenster</label>
+          <!-- <input type="radio" id="fenster" onclick="fenster()" name="gender"> -->
+          <br>
+        <label for="frau()"><input type="radio" id="frau" onclick="frau()"name= "gender" >Frau</label>
+          <!-- <input type="radio" id="frau" onclick="frau()"name= "gender" > -->
+          <br>
+        <label for="haustür()"><input type="radio" id="haustür" onclick="haustür()" name="gender">Haustür</label>
+          <!-- <input type="radio" id="haustür" onclick="haustür()" name="gender"-->
         </div>
-    </div>
+        <div class="c2R">
+        <label for="motorrad()"><input type="radio" id="motorrad" onclick="motorrad()"name= "gender" >Motorrad</label>
+          <!-- <input type="radio" id="motorrad" onclick="motorrad()"name= "gender"> -->
+          <br>
+        <label for="motorradkoffer()"><input type="radio" id="motorradkoffer" onclick="motorradkoffer()"name= "gender" >Motorradkoffer</label>
+          <!-- <input type="radio" id="motorradkoffer" onclick="motorradkoffer()"name= "gender" > -->
+          <br>
+        <label for="parkplatz()"><input type="radio" id="parkplatz" onclick="parkplatz()"name= "gender" >Parkplatz</label>
+          <!-- <input type="radio" id="parkplatz" onclick="parkplatz()"name= "gender" > -->
+          <br>
+        <label for="pflasterung()"><input type="radio" id="pflasterung" onclick="pflasterung()" name="gender">Pflasterung</label>
+          <!-- <input type="radio" id="pflasterung" onclick="pflasterung()" name="gender"> -->
+          <br> 
+        <label for="sicherheitslicht()"><input type="radio" id="sicherheitslicht" onclick="sicherheitslicht()" name="gender">Sicherheitslicht</label>
+          <!-- <input type="radio" id="sicherheitslicht" onclick="sicherheitslicht()" name="gender"> -->
+        
+                            
+        </div>
+    
           
     <div class= "img3">
-          <img src="imgs/Freya.jpg" alt="chums" width="180" height="240" class="center3">
+          <img src="imgs/Freya.jpg" alt="chums" width="180" height="240" class="img3">
     </div>
    
-    <div class="container3">
-        <div class="center"> 
-          <input type="radio" id="madchen" onclick="madchen()" name="gender">
-          <label for="madchen()">Mädchen</label>
+    <!-- <div class="container3"> -->
+        <div class="c3L"> 
 
-          <input type="radio" id="junge" onclick="junge()" name="gender">
-          <label for="junge()">Junge</label>
-
-          <input type="radio" id="kindi" onclick="kindi()" name="gender">
-          <label for="kindi()">Kindergarten</label>
-
-          <input type="radio" id="pflanze" onclick="pflanze()" name="gender">
-          <label for="pflanze()">Pflanze</label>
-
-          <input type="radio" id="schuppen" onclick="schuppen()" name="gender">
-          <label for="schuppen()">Schuppen</label>
-
-          <input type="radio" id="reifen" onclick="reifen()" name="gender">
-          <label for="reifen()">LKW-Reifen</label>
-          
-          <input type="radio" id="klass" onclick="klass()" name="gender">
-          <label for="klass()">Klassenzimmer</label>
-
-          <input type="radio" id="zeichen" onclick="zeichen()" name="gender">
-          <label for="zeichen()">Schulzeichen</label>
-
-          <input type="radio" id="zelt" onclick="zelt()" name="gender">
-          <label for="zelt()">Kinderzelt</label>
-
-          <input type="radio" id="topf" onclick="topf()" name="gender">
-          <label for="topf()">Pflanzentopf</label>
-         
           <input type="radio" id="treppe" onclick="treppe()" name="gender">
           <label for="treppe()">Außentreppe</label>
-
-
-
-
+          <br>
+          <input type="radio" id="junge" onclick="junge()" name="gender">
+          <label for="junge()">Junge</label>
+          <br>
+          <input type="radio" id="kindi" onclick="kindi()" name="gender">
+          <label for="kindi()">Kindergarten</label>
+          <br>
+          <input type="radio" id="zelt" onclick="zelt()" name="gender">
+          <label for="zelt()">Kinderzelt</label>
+          <br>
+          <input type="radio" id="klass" onclick="klass()" name="gender">
+          <label for="klass()">Klassenzimmer</label>
+          <br>
+          <input type="radio" id="reifen" onclick="reifen()" name="gender">
+          <label for="reifen()">LKW-Reifen</label>
         </div>
-    </div>
+        <div class="c3R"> 
+          <input type="radio" id="madchen" onclick="madchen()" name="gender">
+          <label for="madchen()">Mädchen</label>
+          <br>
+          <input type="radio" id="pflanze" onclick="pflanze()" name="gender">
+          <label for="pflanze()">Pflanze</label>
+          <br>
+          <input type="radio" id="topf" onclick="topf()" name="gender">
+          <label for="topf()">Pflanzentopf</label>
+          <br>
+          <input type="radio" id="zeichen" onclick="zeichen()" name="gender">
+          <label for="zeichen()">Schulzeichen</label>
+          <br>
+          <input type="radio" id="schuppen" onclick="schuppen()" name="gender">
+          <label for="schuppen()">Schuppen</label>
+          
+        </div>
+    <!-- </div> -->
 
-          <br> 
+          <!-- <br> 
           <br>
           <br>
           <br>
-          <br>
+          <br> -->
 <div class="footer2">      
           <p class="a">Geschlechterrätsel</p>
           <p><a href="index.html">Startseite</a></p>   
