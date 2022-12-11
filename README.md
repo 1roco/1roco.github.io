@@ -17,3 +17,4 @@ Deutch ubungen
 "Not resolved line wrap for no-space between radio button and label"
 "First completion of in dex and gen der, check screen sizes for responsive build"
 "save to github and check webpage"
+"and again to check links on page gender"
