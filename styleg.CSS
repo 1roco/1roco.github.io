@@ -52,12 +52,12 @@ input:checked + .gridContainer #grid {
 display : grid;}
 
 /* grid style gender html items */
-.links1{
+/* .links1{
     grid-column: 1/3;
     grid-row: 1/2;
     padding: 5px; 
     background: var(--primary);
-    /* font-size:small; */
+    font-size:small;
     font-style: italic; 
     color:var(--text);
 }
@@ -66,10 +66,10 @@ display : grid;}
     grid-row: 1/2;
     padding: 5px; 
     background: var(--primary);
-    /* font-size:small; */
+    font-size:small;
     font-style: italic; 
-    color:var(--text);
-}
+    color:var(--text);     
+}*/
 .header{
     grid-column: 3/11;
     grid-row: 1/2;

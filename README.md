@@ -19,3 +19,4 @@ Deutch ubungen
 "save to github and check webpage"
 "and again to check links on page gender"
 "restyle index and gender headings"
+"restyle gender heading with links inside heading"
