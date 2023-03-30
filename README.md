@@ -20,3 +20,4 @@ Deutch ubungen
 "and again to check links on page gender"
 "restyle index and gender headings"
 "restyle gender heading with links inside heading"
+"Rename NextPremis as TierNamen and add checkbox"
